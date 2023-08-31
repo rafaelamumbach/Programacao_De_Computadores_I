@@ -3,7 +3,7 @@
 // Data : 31/08/2023
 #include <stdio.h>
 
- int main(void){
+ void main(void){
 
     int qtdSegundos, horas, minutos, segundos ;
     printf("Quantidade de Segundos: ");
