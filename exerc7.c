@@ -3,7 +3,7 @@
 // Data : 31/08/2023
 #include <stdio.h>
 
-void main() {
+void main(){
     int valor, soma = 0;
 
     printf("Digite um valor entre 0 e 9999: ");
@@ -28,5 +28,5 @@ void main() {
 
     soma = soma + (valor / divisor);
 
-    printf("A soma dos digitos eh: %d\n", soma);
+    printf("A soma dos digitos eh: %d\n", soma); 
 }
