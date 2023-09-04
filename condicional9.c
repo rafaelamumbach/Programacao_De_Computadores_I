@@ -6,5 +6,22 @@
 #include <stdio.h>
 
 void main(){
-	
+    float nota1, nota2, nota3;
+    printf("Informe a nota 1: ");
+    scanf("%f", &nota1);
+    printf("Informe a nota 2: ");
+    scanf("%f", &nota2);
+    printf("Informe a nota 3: ");
+    scanf("%f", &nota3);
+
+    if (nota1 <=0 || nota2 <=0 || nota3 <=0){ 
+       printf("Nao eh possivel dividir um numero por zero!\nInsira novamente as notas.\n");
+       
+       }
+       else{
+
+         float media_harmonica = 3 / (1/nota1 + 1/nota2 + 1/nota3);
+
+         printf("A media harmonica das tres notas informadas eh: %.2f", media_harmonica);
+         }
 }
