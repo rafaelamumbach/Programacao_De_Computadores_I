@@ -8,7 +8,7 @@
 #include <math.h>
 
 void main(){
-    float a, b, c;
+         float a, b, c;
          printf("Informe o coeficiente (a): ");
          scanf("%f", &a);
          printf("Informe o coeficiente (b): ");
