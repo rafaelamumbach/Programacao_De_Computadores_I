@@ -8,28 +8,6 @@
 #include <math.h>
 
 void main(){
-<<<<<<< HEAD
-        float a, b, c;
-        printf("Informe o coeficiente (a): ");
-        scanf("%f", &a);
-        printf("Informe o coeficiente (b): ");
-        scanf("%f", &b);
-        printf("Informe o coeficiente (c): ");
-        scanf("%f", &c);
-
-        float delta = pow(b,2)-4*a*c; //pow = b elevado ao quadrado
-
-        if (delta >= 0){
-            float raiz1 = (-b + sqrt (delta)) / (2*a); //sqrt = raiz quadrada
-            float raiz2 = (-b - sqrt (delta)) / (2*a);
-            printf("Raiz 1: %.2f\n", raiz1);
-            printf("Raiz 2: %.2f\n", raiz2);
-         }
-         else {
-            printf("A equacao nao possui raizes reais.\n");
-         }
-}
-=======
     float a, b, c;
          printf("Informe o coeficiente (a): ");
          scanf("%f", &a);
@@ -50,4 +28,3 @@ void main(){
                   printf("A equação não possui raízes reais.");
          }
 }
->>>>>>> 3d1fbddb547ce35b6d0367ce79b75101426c487e
