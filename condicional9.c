@@ -14,7 +14,7 @@ void main(){
     printf("Informe a nota 3: ");
     scanf("%f", &nota3);
 
-    if (nota1 <=0 || nota2 <=0 || nota3 <=0){ 
+    if (nota1 == 0 || nota2 == 0 || nota3 == 0){ 
        printf("Nao eh possivel dividir um numero por zero!\nInsira novamente as notas.\n");
        
        }
